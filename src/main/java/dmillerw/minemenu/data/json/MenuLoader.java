@@ -57,7 +57,7 @@ public class MenuLoader {
 
                             MenuItem item = array[id];
 
-                            // 本地化标题
+
                             String localizedTitle = LocalizationHelper.getLocalizedString(item.title);
                             array[id] = new MenuItem(localizedTitle, item.icon, item.clickAction);
 
