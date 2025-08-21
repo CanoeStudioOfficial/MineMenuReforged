@@ -10,6 +10,7 @@ import dmillerw.minemenu.data.click.ClickActionCommand;
 import dmillerw.minemenu.data.click.ClickActionKey;
 import dmillerw.minemenu.data.menu.MenuItem;
 import dmillerw.minemenu.data.menu.RadialMenu;
+import dmillerw.minemenu.helper.LocalizationHelper;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
@@ -56,9 +57,13 @@ public class MenuLoader {
 
                             MenuItem item = array[id];
 
+                            // 本地化标题
+                            String localizedTitle = LocalizationHelper.getLocalizedString(item.title);
+                            array[id] = new MenuItem(localizedTitle, item.icon, item.clickAction);
+
                             if (item.icon.isEmpty()) {
                                 MineMenu.LOGGER.warn("Menu item in slot {} is looking for an item that no longer exists", id);
-                                MenuItem newItem = new MenuItem(item.title, new ItemStack(Blocks.STONE), item.clickAction);
+                                MenuItem newItem = new MenuItem(localizedTitle, new ItemStack(Blocks.STONE), item.clickAction);
                                 array[id] = newItem;
                             }
 
