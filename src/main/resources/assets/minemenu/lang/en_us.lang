@@ -1,0 +1,24 @@
+key.open_menu=Open My Menu
+
+minemenu.gui.tip1=Enter a name, then configure with the following options
+minemenu.gui.tip2=Add new menu functionality
+minemenu.gui.tip3=Behavior
+minemenu.gui.tip4=Modify binding slot: Number
+minemenu.gui.tip5=Delete
+minemenu.gui.tip6=Select an icon
+minemenu.gui.tip7=Enter a command
+minemenu.gui.tip8=Click behavior: Command
+minemenu.gui.tip9=Click behavior: Key binding
+minemenu.gui.tip10=Click behavior: Item usage
+minemenu.gui.tip11=Click behavior: Add new page
+minemenu.gui.tip12=Select a key
+minemenu.gui.tip13=Select an item
+minemenu.gui.tip14=Create a new menu page
+minemenu.gui.tip15=Select a slot
+minemenu.gui.tip16=Select an item
+
+mine_menu.clipboardCopy=Command copied to clipboard
+mine_menu.clipboard=Copy to clipboard
+mine_menu.send=Send
+mine_menu.toggle=Hold continuously
+mine_menu.press=Press once

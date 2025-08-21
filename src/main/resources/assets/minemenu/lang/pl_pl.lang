@@ -1,0 +1,24 @@
+key.open_menu=Otwórz moje menu
+
+minemenu.gui.tip1=Wprowadź nazwę, a następnie skonfiguruj za pomocą poniższych opcji
+minemenu.gui.tip2=Dodaj nową funkcję menu
+minemenu.gui.tip3=Zachowanie
+minemenu.gui.tip4=Modyfikuj powiązane pole: Numer.
+minemenu.gui.tip5=Usuń
+minemenu.gui.tip6=Wybierz ikonę
+minemenu.gui.tip7=Wprowadź polecenie
+minemenu.gui.tip8=Zachowanie przy kliknięciu: Polecenie
+minemenu.gui.tip9=Zachowanie przy kliknięciu: Powiązanie klawisza
+minemenu.gui.tip10=Zachowanie przy kliknięciu: Użycie przedmiotu
+minemenu.gui.tip11=Zachowanie przy kliknięciu: Dodaj nową stronę
+minemenu.gui.tip12=Wybierz klawisz
+minemenu.gui.tip13=Wybierz przedmiot
+minemenu.gui.tip14=Utwórz nową stronę menu
+minemenu.gui.tip15=Wybierz pole
+minemenu.gui.tip16=Wybierz przedmiot
+
+mine_menu.clipboardCopy=Polecenie skopiowane do schowka
+mine_menu.clipboard=Kopiuj do schowka
+mine_menu.send=Wyślij
+mine_menu.toggle=Przytrzymaj
+mine_menu.press=Naciśnij raz
